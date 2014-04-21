@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8448ce5d-396d-4a6e-9a6b-b61ddaaa8e35"
+  name="SqlClient"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9c2cf5ad-2070-45aa-b703-4cbb59965aa9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Data.SqlClient"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9cdc848f-6086-403c-9610-fba11cb664e2"
+        name="SqlConnection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fbd9c0ec-fc3c-413e-b427-d78cd2b1b153"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data.SqlClient Type%3DSqlConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a142a84e-c7b6-4b8f-8b60-81ad710aaa64"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2f8fc9af-b9e5-4894-80fc-25f04bf55a74">
+                <propertyInstance
+                  Id="72857779-f319-4623-8669-8230f50aabf8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35694f9a-719b-4a18-8ce1-4df0dd230b40">
+                <propertyInstance
+                  Id="ee9d123e-0a2d-4527-8a0c-931162efc401"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6cb439bf-f981-49b8-ad15-de80ff870ccc">
+                <propertyInstance
+                  Id="cb953d84-9eb4-4673-8f2f-5fea4cecca84"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03c8690a-4797-4db6-aa7f-59c1c64551ca">
+                <propertyInstance
+                  Id="d6162e96-7a74-47b4-ad0c-bc20554e66e5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20599915-0003-4a32-92fa-b03178316ee7">
+                <propertyInstance
+                  Id="279e87f9-3800-4a4e-95e9-1a795f09dfbb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="77ef7692-b7ec-4643-87f7-8b5f50dc4d53"
+        name="SqlParameterCollection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f349f37d-60c7-4f1e-9a1d-aecbabcfdaae"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data.SqlClient Type%3DSqlParameterCollection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5d7f23ca-1818-4c44-b11a-3eb140c0e467"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fed526dc-0ac5-42fc-abd7-9acbb952560f">
+                <propertyInstance
+                  Id="2032a9db-1aac-42e3-b547-37f3374e23b4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d57abb83-e219-4eff-a378-512c41bf6488">
+                <propertyInstance
+                  Id="6433ef0c-2aee-49e7-b5ff-e2b5a32349b5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13b75072-f11b-42e4-9978-7630d917540f">
+                <propertyInstance
+                  Id="a682980d-f6a4-472c-bed5-a8fb79d6d190"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42c63991-dc7b-48a4-8f9c-6c654948a7ef">
+                <propertyInstance
+                  Id="65899721-0a08-46db-a1b2-81959364d2a9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2dd2290a-ad3b-424f-afa6-1109f0e36be7">
+                <propertyInstance
+                  Id="e167c479-0bd5-4aa6-8e66-878edae7981f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

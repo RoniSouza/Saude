@@ -1,0 +1,36 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="Web.Site_Mobile" %>
+
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:LoginView runat="server" ViewStateMode="Disabled">
+            <LoggedInTemplate>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a runat="server" class="username" href="~/Contas/Gerenciar" title="Gerenciar sua conta">Olá,
+                                    <asp:LoginName runat="server" CssClass="username" />
+                        !</a></li>
+                    <li>
+                        <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Fazer logoff" LogoutPageUrl="~/Mobile/Login" />
+                    </li>
+                </ul>
+            </LoggedInTemplate>
+        </asp:LoginView>
+        <div>
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+            <friendlyUrls:ViewSwitcher runat="server" />
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2f9da40c-2b9b-4f8b-926e-89fca9d5d750"
+  name="AcessoBancoDados"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0be85c13-d0d4-4183-b8fa-3db5a890b23a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAcessoBancoDados"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b9bee388-0d77-4429-a55f-2328eee3121f"
+        name="AcessoDadosSqlServer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="96068972-a8cf-4830-bbf7-50453be39f21"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e4f99ace-7510-4b5e-9810-dff815fceb95"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1256583d-8535-43fd-9de8-b4ebdaef468e">
+                <propertyInstance
+                  Id="6eea7fae-85de-4f38-8603-151b9cd1a10d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0fca56c4-0963-45cd-91bf-658f9997010f">
+                <propertyInstance
+                  Id="3ced7161-9610-458a-b70b-e8688620763e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="703b0621-dea5-4548-a2e8-3fc8fcb1e2a5">
+                <propertyInstance
+                  Id="a523a7a6-da03-4c30-880f-b00eee39d272"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a0a7d7c-2834-427b-911e-a2c3f4f453f1">
+                <propertyInstance
+                  Id="d8382b6d-830b-47e4-aa59-011e6d354790"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ffba96f-a66d-4cb6-82de-6020a04b7ade">
+                <propertyInstance
+                  Id="8a33573b-e2f7-46c1-bab1-fa3597073668"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c0c28727-e0aa-4e03-a51e-da4c19969fbb"
+            name="sqlParameterCollection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="492aa51f-64cf-4b20-aa7a-9b5205c9ff31"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3DsqlParameterCollection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7daad631-731e-4e30-8f26-f71b6fae6f48"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1765b2b-a3cd-41f4-9c56-9a1fdb61396d">
+                    <propertyInstance
+                      Id="a0cd056d-9a4f-43d5-8734-37bcd57be5ff"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a6dba49-6b43-4b66-896d-1016ad3e2c73">
+                    <propertyInstance
+                      Id="7383826d-a49c-47c0-9db5-028ae739ab60"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="399b3ba8-11cb-445b-906b-9ea14c1fd7e5">
+                    <propertyInstance
+                      Id="203008f0-9540-43a0-9aff-b29977f3678a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e50880-ec6a-4751-823c-bdaaced5e0e8">
+                    <propertyInstance
+                      Id="39b1a39d-d61e-43c8-b07d-7493776ed608"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b47747e0-45f7-4327-9dfd-972ef750f311">
+                    <propertyInstance
+                      Id="231bcaa3-462c-4640-9c76-cb59b82991b8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="77ef7692-b7ec-4643-87f7-8b5f50dc4d53"
+                LastKnownName="SqlParameterCollection"
+                LastKnownLocation="Package3_2338.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cfa17f5b-53e8-4f2b-9178-ebd92b14ee56"
+            name="CriarConexao"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb3841f2-013e-4d2d-9e8f-d255d63dbdd7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3DCriarConexao"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="676adbbb-aa86-4d68-9648-2786f98e058f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e635dcf-d4ba-46ff-82ea-b97558554c12">
+                    <propertyInstance
+                      Id="47ad3963-6c82-486c-bd58-f055e32d3d81"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2ea95ab-7d56-43d3-a2aa-eea876a32918">
+                    <propertyInstance
+                      Id="8440046b-5520-483d-b8cc-6c92fab34efc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec651cb4-5b16-4a90-a502-3135357422ed">
+                    <propertyInstance
+                      Id="4c12c97a-3c38-4397-a9ef-ffc19f1beb00"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcd77468-77c9-494c-b677-0347d7b6194b">
+                    <propertyInstance
+                      Id="404c1f6c-be5f-420f-823d-809bf50a5bd5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac2e49e0-ba83-4297-846e-c0a8ca596edb">
+                    <propertyInstance
+                      Id="dcf2a73a-514a-4cfd-891f-e32a251b08b5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a664476d-98c3-4534-9928-1e22754bc30c">
+                    <propertyInstance
+                      Id="2d7b0f16-f1ad-42b2-9e07-00a055e5679f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb267b5d-132e-44e1-83fb-b1e493324092"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cdc848f-6086-403c-9610-fba11cb664e2"
+                      LastKnownName="SqlConnection"
+                      LastKnownLocation="Package3_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a17c0805-78ce-4bd8-a92f-fd0590a64ed9"
+            name="LimparParametros"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1b5e17d9-1c1e-4c63-ada6-99cf618c168c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3DLimparParametros"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2106ef05-0a01-471d-a45a-17d482142ff3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3599ac5-1193-4c66-9090-d035f76f1862">
+                    <propertyInstance
+                      Id="b9559a47-60e2-424d-ac57-3978ed44e0b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bb1746b-038b-49a1-8bfe-ab79c2e8514d">
+                    <propertyInstance
+                      Id="35ec46bc-e7a8-4e48-99a0-b1261df91b6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9dba21f-37a9-4ee4-be6b-644d27d6e2ee">
+                    <propertyInstance
+                      Id="25383209-01b5-4130-be39-5f7f5d3aa5b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91d69db7-c666-44ae-909d-678a5d65159e">
+                    <propertyInstance
+                      Id="87888e45-b27a-43ed-b69e-0d1f338098ef"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6f4e50c-6526-4bb7-8256-be6b93007cee">
+                    <propertyInstance
+                      Id="b2fe48ac-857f-4c6d-b51f-1dcfcd724fee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ae0280-90d9-4392-a7cb-9faa32d0f7a9">
+                    <propertyInstance
+                      Id="b28c290a-9bdd-4f70-b47a-1d2f66cd0dbe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="09f07443-c0d3-440c-a1e3-f8ffba00360e"
+            name="AdicionarParametros"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4313653e-1ef0-4c39-be87-56e97112ac9f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DAdicionarParametros OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="136b5260-b8b3-4208-a2d4-1abb2cfbd7d8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1f5add7-1569-44b6-b3a5-475eed7fdf7a">
+                    <propertyInstance
+                      Id="dd0c012e-ebf0-4a9e-8873-c6abd07b72a5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0552e929-fe14-49a1-be7f-71cbe576ecc3">
+                    <propertyInstance
+                      Id="ea58b4d4-b31b-4f0e-be16-edcd9c5412b7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e937fcdf-cdda-4a7f-a063-8010bba6043e">
+                    <propertyInstance
+                      Id="342a910f-8fdb-43f1-9dcd-afd426e6144f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="592d372e-5575-4c64-9c9d-cc299d1e4203">
+                    <propertyInstance
+                      Id="dd90f1cb-9206-4ee5-98e6-f360c1b36b95"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="734e8f6e-bb77-43e5-a7d3-dc7e57bc765a">
+                    <propertyInstance
+                      Id="4af4ce84-8ac5-4a1c-ad3d-c5cc25ed0350"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e55a9d7-42ae-4e63-8893-3691b57508b3">
+                    <propertyInstance
+                      Id="797f4ec9-93a5-4509-ad83-135e9708142b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53083fcf-44e8-4cc4-8ce4-f2f5d01e6fa0"
+                  name="nomeParametro"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cc137703-3bc1-4d90-abc2-43b0f187f2c8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DAdicionarParametros OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3DnomeParametro"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="93249f6f-97e3-42e4-9d48-5e0ff2f537a3"
+                  name="valorParametro"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="495b5fbb-1caf-424f-977f-18732de663e6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DAdicionarParametros OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3DvalorParametro"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b8beb4ab-14a4-4aba-9217-6e261f0b5b3f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1062f427-507b-4eec-9b69-87c70bf6d7ad"
+            name="ExecutarManipulacao"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6db2f6b7-6287-419a-a37c-44a29048a297"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarManipulacao OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd6cd222-c1e3-47a6-a843-f35ce3e8b851"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="042f0fd5-0dab-4d84-86ec-65daa69ec09b">
+                    <propertyInstance
+                      Id="296b0576-723d-460e-899b-c2c93aef215d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c44d4076-07f5-4a0e-916f-828b5712dcb9">
+                    <propertyInstance
+                      Id="66c557f8-fef3-4aee-8807-d1258942fdd7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a98dbf5f-bae2-4eb4-8ebd-b31a986fe9db">
+                    <propertyInstance
+                      Id="34742eec-d9d2-4758-94cb-8e88d29d62cb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dab71944-917c-4db3-b37f-49646d419a89">
+                    <propertyInstance
+                      Id="efa83001-8bf6-402f-982e-c9d700b79b25"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6381fb3a-d480-499c-bed1-3a1265d7169f">
+                    <propertyInstance
+                      Id="67119701-4995-4956-b86f-39495ee648f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="592e6321-d127-4fc4-9874-46caef3057bf">
+                    <propertyInstance
+                      Id="05610697-d549-4e0e-8f54-89d6aa440eb1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3dac76d2-37e5-4c94-b272-2feefc23c2e7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b8beb4ab-14a4-4aba-9217-6e261f0b5b3f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="94d455ef-4078-4b3d-b13e-1a2bf2c2bb71"
+                  name="commandType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d9893777-2268-4606-bdf1-baedbab52dac"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarManipulacao OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcommandType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="60736e57-cd88-4ca7-828a-c14b6b44216f"
+                      LastKnownName="CommandType"
+                      LastKnownLocation="Package2_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ff60916d-fd01-40e8-875a-103a8b3e3582"
+                  name="nomeStoredProducedureOuTextoSql"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="43ad89bc-f168-42ae-b65d-47662cc9119e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarManipulacao OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DnomeStoredProducedureOuTextoSql"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a2e49c22-caae-4c6a-918a-cbafc91707c2"
+            name="ExecutarConsulta"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="73fa10b3-fb5e-4237-8985-fd1d759a45dc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarConsulta OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cb626f08-5166-4a07-ab54-adefa181075f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1997d84b-5df2-4184-a24b-d8c4aeb07fa8">
+                    <propertyInstance
+                      Id="07b61fd9-a26e-4a86-9632-b88eb0a67850"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="201c4198-aad4-4d37-8772-95e445775f8c">
+                    <propertyInstance
+                      Id="74da40b7-94f2-4c83-b078-7d18ae4858a0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f69976c-55c0-4fb3-8e09-46df49db009a">
+                    <propertyInstance
+                      Id="c1cb5dcc-3f23-40ea-b397-94cf9976a6d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35151bab-e46b-4116-b1fb-15d5cb630fb7">
+                    <propertyInstance
+                      Id="a76e34ec-22fc-4bb8-a8a8-85321af9f4ca"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d7e39bd-62e3-4dd4-b8be-1d5d33d0d351">
+                    <propertyInstance
+                      Id="a14a87a0-b8c9-43fe-8ee9-92d1dedb8935"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e37c428-430f-42ad-a33b-35eeffdb307e">
+                    <propertyInstance
+                      Id="583cf39b-60bc-490c-87d0-b9853623f06b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7d1fc7f7-b8c9-4e7d-9133-d85299aa8fc0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="eb085463-e288-4de9-be60-be22b3d43fe2"
+                      LastKnownName="DataTable"
+                      LastKnownLocation="Package2_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3807ea7e-2348-45a2-bbdb-bf90f8d19a59"
+                  name="commandType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7ba5b3ea-868c-4c6d-afc6-8fc79df8ce03"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarConsulta OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcommandType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="60736e57-cd88-4ca7-828a-c14b6b44216f"
+                      LastKnownName="CommandType"
+                      LastKnownLocation="Package2_2338.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e66e49fe-b749-4a17-8a41-0f5fdfdf1513"
+                  name="nomeStoredProducedureOuTextoSql"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="20a122ba-1baa-4f43-9d1f-745092a2bb4a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D(Name%3DExecutarConsulta OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DCommandType)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DnomeStoredProducedureOuTextoSql"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3d55a7c7-2b0e-43b0-af41-6035c5e54450"
+            name="AcessoDadosSqlServer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b32f20b6-61c8-453f-b1e4-0e52cadff57b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FSaude%2FSaude%2FAcessoBancoDados%2Fbin%2FDebug%2FAcessoBancoDados.dll Namespace%3DAcessoBancoDados Type%3DAcessoDadosSqlServer Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1665d570-aa49-47c9-973c-e247a0276a44"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdd79bae-27fd-4c5e-b90f-81de4acec0d6">
+                    <propertyInstance
+                      Id="2d6b4e7e-c99a-4635-b023-2043593f0cab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bffd798-4f6e-4769-80a1-f101e1f09664">
+                    <propertyInstance
+                      Id="1d7b9690-aeb2-48ef-9214-99e1eb681f74"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38dc2f55-e84d-4b12-84d5-dbc90d71b9b9">
+                    <propertyInstance
+                      Id="fcd937e8-fd4f-4735-af8c-5a5195ce20bc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec45c7c2-fc4c-4ed9-a5fe-c568aac1cc09">
+                    <propertyInstance
+                      Id="020bad43-8246-4ea8-a3c0-9b4c82e1dcad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c3192f8-8fc6-49fb-9260-2828b1568e56">
+                    <propertyInstance
+                      Id="357e0a0a-601f-4ba5-bd0e-e499d2c1f24d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="936d66a2-0fcc-4261-9106-645b1a4a05d8">
+                    <propertyInstance
+                      Id="a1f51609-0f1d-4c5d-8e67-b303d9ab7aa3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
